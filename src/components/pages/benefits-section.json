@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_benefits_sections",
+  "info": {
+    "displayName": "BenefitsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Benefitsitems": {
+      "displayName": "BenefitsItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.benefits-items"
+    }
+  }
+}

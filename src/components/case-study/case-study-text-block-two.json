@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_case_study_case_study_text_block_twos",
+  "info": {
+    "displayName": "CaseStudyTextBlockTwo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

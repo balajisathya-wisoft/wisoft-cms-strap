@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_odoo_homepage_why_odoo_cards",
+  "info": {
+    "displayName": "WhyOdooCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_odoo_homepage_cards",
+  "info": {
+    "displayName": "Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectorName": {
+      "type": "string"
+    },
+    "sectorIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

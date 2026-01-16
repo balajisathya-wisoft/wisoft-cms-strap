@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_terms_and_conditions_pages",
+  "info": {
+    "singularName": "odoo-terms-and-conditions-page",
+    "pluralName": "odoo-terms-and-conditions-pages",
+    "displayName": "OdooTermsAndConditionsPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

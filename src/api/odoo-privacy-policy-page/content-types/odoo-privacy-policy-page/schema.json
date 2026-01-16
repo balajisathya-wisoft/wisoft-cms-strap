@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_privacy_policy_pages",
+  "info": {
+    "singularName": "odoo-privacy-policy-page",
+    "pluralName": "odoo-privacy-policy-pages",
+    "displayName": "OdooPrivacyPolicyPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

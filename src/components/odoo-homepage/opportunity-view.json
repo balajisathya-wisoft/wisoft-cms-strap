@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_odoo_homepage_opportunity_views",
+  "info": {
+    "displayName": "OpportunityView"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

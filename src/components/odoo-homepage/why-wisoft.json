@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_odoo_homepage_why_wisofts",
+  "info": {
+    "displayName": "WhyWisoft"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

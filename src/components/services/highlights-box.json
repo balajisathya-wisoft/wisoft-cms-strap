@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_highlights_boxes",
+  "info": {
+    "displayName": "HighlightsBox"
+  },
+  "options": {},
+  "attributes": {
+    "Items": {
+      "displayName": "Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.items"
+    }
+  }
+}

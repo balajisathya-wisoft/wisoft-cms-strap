@@ -1,0 +1,129 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-studie",
+    "pluralName": "case-studies",
+    "displayName": "Case Studies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "CoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Excerpt": {
+      "type": "text",
+      "required": true
+    },
+    "FullContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "ReadMoreLink": {
+      "type": "string"
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "ServicesList": {
+      "type": "text",
+      "required": true,
+      "regex": "^([A-Za-z ]+)(,[A-Za-z ]+)*$"
+    },
+    "GalleryImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CoverVideoPosterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Category": {
+      "type": "string"
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CaseStudyTextBlocksOne": {
+      "displayName": "CaseStudyTextBlock",
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.case-study-text-block"
+    },
+    "CaseStudyTextBlocksTwo": {
+      "displayName": "CaseStudyTextBlockTwo",
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.case-study-text-block-two"
+    },
+    "CaseStudiesGallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
+    },
+    "thumbnailImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

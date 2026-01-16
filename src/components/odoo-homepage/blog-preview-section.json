@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_odoo_homepage_blog_preview_sections",
+  "info": {
+    "displayName": "BlogPreviewSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}

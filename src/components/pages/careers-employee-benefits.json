@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_careers_employee_benefits",
+  "info": {
+    "displayName": "EmployeeBenefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Benefits": {
+      "displayName": "ItemCareerBenefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.item-career-benefits"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_item_career_benefits",
+  "info": {
+    "displayName": "ItemCareerBenefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "string"
+    }
+  }
+}

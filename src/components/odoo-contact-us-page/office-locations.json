@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_odoo_contact_us_page_office_locations",
+  "info": {
+    "displayName": "OfficeLocations"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mapLink": {
+      "type": "text"
+    }
+  }
+}

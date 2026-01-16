@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_portals",
+  "info": {
+    "singularName": "career-portal",
+    "pluralName": "career-portals",
+    "displayName": "CareerPortal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "JobType": {
+      "type": "string",
+      "required": true
+    },
+    "RequiredExperince": {
+      "type": "string",
+      "required": true
+    },
+    "WorkingHours": {
+      "type": "text",
+      "required": true
+    },
+    "WorkingDays": {
+      "type": "string",
+      "required": true
+    },
+    "NumberOfOpenings": {
+      "type": "string",
+      "required": true
+    },
+    "JobDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "country": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::country.country",
+      "inversedBy": "Countries"
+    },
+    "department": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::department.department",
+      "inversedBy": "Departments"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "ExpireDate": {
+      "type": "date",
+      "unique": false,
+      "required": true
+    }
+  }
+}

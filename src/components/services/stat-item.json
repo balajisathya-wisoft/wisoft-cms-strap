@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_stat_items",
+  "info": {
+    "displayName": "StatItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StatValue": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "AnimationImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

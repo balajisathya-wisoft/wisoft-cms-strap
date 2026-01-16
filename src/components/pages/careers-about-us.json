@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_careers_aboutuses",
+  "info": {
+    "displayName": "CareersAboutUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "galleryImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

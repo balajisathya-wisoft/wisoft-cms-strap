@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departments",
+  "info": {
+    "singularName": "department",
+    "pluralName": "departments",
+    "displayName": "Department"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Departments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::career-portal.career-portal",
+      "mappedBy": "department"
+    }
+  }
+}

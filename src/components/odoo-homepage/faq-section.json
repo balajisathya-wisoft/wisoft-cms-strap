@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_odoo_homepage_faq_sections",
+  "info": {
+    "displayName": "FaqSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faq": {
+      "displayName": "faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo-homepage.faq"
+    }
+  }
+}

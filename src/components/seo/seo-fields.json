@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_seo_seo_fields",
+  "info": {
+    "displayName": "SEO Fields",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    },
+    "Schema": {
+      "type": "text"
+    },
+    "CanonicalURL": {
+      "type": "string"
+    },
+    "OGTitle": {
+      "type": "string"
+    },
+    "OGDescription": {
+      "type": "text"
+    },
+    "OGImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SearchEnginesIndexing": {
+      "type": "boolean",
+      "default": true
+    },
+    "hreflangTags": {
+      "type": "text"
+    }
+  }
+}

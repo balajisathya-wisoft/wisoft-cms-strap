@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_narrative_section_content_twos",
+  "info": {
+    "displayName": "NarrativeSectionContentTwo"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

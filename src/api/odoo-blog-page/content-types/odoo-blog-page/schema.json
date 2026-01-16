@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_blog_pages",
+  "info": {
+    "singularName": "odoo-blog-page",
+    "pluralName": "odoo-blog-pages",
+    "displayName": "OdooBlogPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
+    }
+  }
+}

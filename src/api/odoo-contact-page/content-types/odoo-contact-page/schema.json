@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_contact_pages",
+  "info": {
+    "singularName": "odoo-contact-page",
+    "pluralName": "odoo-contact-pages",
+    "displayName": "OdooContactPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo-contact-us-page.office-locations"
+    },
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-contact-us-page.hero-section"
+    }
+  }
+}

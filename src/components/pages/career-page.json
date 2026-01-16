@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pages_career_pages",
+  "info": {
+    "displayName": "CareerPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.career-banner"
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.careers-about-us"
+    },
+    "BenefitsSection": {
+      "displayName": "BenefitsSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.benefits-section"
+    }
+  }
+}

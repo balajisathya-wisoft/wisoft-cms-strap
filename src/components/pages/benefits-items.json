@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pages_benefits_items",
+  "info": {
+    "displayName": "BenefitsItems"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "string"
+    }
+  }
+}

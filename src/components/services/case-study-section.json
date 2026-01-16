@@ -1,0 +1,25 @@
+{
+  "collectionName": "cs_case_study_section",
+  "info": {
+    "displayName": "CaseStudySection "
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "case_studies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-studie.case-studie"
+    },
+    "LayoutStyle": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "carousel",
+        "stacked"
+      ]
+    }
+  }
+}

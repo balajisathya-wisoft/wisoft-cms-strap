@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_case_study_case_study_text_blocks",
+  "info": {
+    "displayName": "CaseStudyTextBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

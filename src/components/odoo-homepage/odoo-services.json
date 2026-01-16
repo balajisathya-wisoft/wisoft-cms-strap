@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_odoo_homepage_odoo_services",
+  "info": {
+    "displayName": "OdooServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo-homepage.services"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

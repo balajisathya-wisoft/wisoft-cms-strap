@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_odoo_homepage_experties",
+  "info": {
+    "displayName": "Experties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo-homepage.cards"
+    }
+  }
+}

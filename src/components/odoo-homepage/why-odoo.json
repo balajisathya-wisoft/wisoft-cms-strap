@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_odoo_homepage_why_odoos",
+  "info": {
+    "displayName": "WhyOdoo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "WhyOdooCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo-homepage.why-odoo-cards"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

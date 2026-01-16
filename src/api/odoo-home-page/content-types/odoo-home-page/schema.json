@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_home_pages",
+  "info": {
+    "singularName": "odoo-home-page",
+    "pluralName": "odoo-home-pages",
+    "displayName": "OdooHomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "displayName": "HeroSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.hero-section"
+    },
+    "WhyWisoft": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.why-wisoft"
+    },
+    "WhyOdoo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.why-odoo"
+    },
+    "OdooServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.odoo-services"
+    },
+    "OpportunityView": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.opportunity-view"
+    },
+    "Experties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.experties"
+    },
+    "FaqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.faq-section"
+    },
+    "BlogPreviewSection": {
+      "displayName": "BlogPreviewSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo-homepage.blog-preview-section"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
+    }
+  }
+}
